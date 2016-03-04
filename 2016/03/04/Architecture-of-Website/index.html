@@ -3,17 +3,48 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>Architecture of Website | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="序言传统的企业应用系统主要面对的技术挑战是处理复杂凌乱、千变万化的所谓业务逻辑，而大型网站主要面对的技术挑战是处理超大量的用户访问和海量的数据处理；前者的挑战来自功能性需求，后者的挑战来自非功能性需求。
+概述大型网站架构演化发展历程
+初始阶段的网站架构
+应用服务与数据服务分离
+使用缓存改善网站性能
+使用应用服务器集群改善网站的并发能力
+数据库读写分离
+使用反向代理和CDN加速网站响应
+
+
+refe">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Architecture of Website">
+<meta property="og:url" content="http://yoursite.com/2016/03/04/Architecture-of-Website/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
+<meta property="og:description" content="序言传统的企业应用系统主要面对的技术挑战是处理复杂凌乱、千变万化的所谓业务逻辑，而大型网站主要面对的技术挑战是处理超大量的用户访问和海量的数据处理；前者的挑战来自功能性需求，后者的挑战来自非功能性需求。
+概述大型网站架构演化发展历程
+初始阶段的网站架构
+应用服务与数据服务分离
+使用缓存改善网站性能
+使用应用服务器集群改善网站的并发能力
+数据库读写分离
+使用反向代理和CDN加速网站响应
+
+
+refe">
+<meta property="og:updated_time" content="2016-03-04T13:09:35.919Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Architecture of Website">
+<meta name="twitter:description" content="序言传统的企业应用系统主要面对的技术挑战是处理复杂凌乱、千变万化的所谓业务逻辑，而大型网站主要面对的技术挑战是处理超大量的用户访问和海量的数据处理；前者的挑战来自功能性需求，后者的挑战来自非功能性需求。
+概述大型网站架构演化发展历程
+初始阶段的网站架构
+应用服务与数据服务分离
+使用缓存改善网站性能
+使用应用服务器集群改善网站的并发能力
+数据库读写分离
+使用反向代理和CDN加速网站响应
+
+
+refe">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +91,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Architecture-of-Website" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Architecture-of-Website" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/03/04/Architecture-of-Website/" class="article-date">
   <time datetime="2016-03-04T13:08:49.000Z" itemprop="datePublished">2016-03-04</time>
@@ -75,8 +104,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/04/Architecture-of-Website/">Architecture of Website</a>
+    <h1 class="article-title" itemprop="name">
+      Architecture of Website
     </h1>
   
 
@@ -179,97 +208,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-first-article" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/02/02/first-article/" class="article-date">
-  <time datetime="2016-02-02T02:50:51.000Z" itemprop="datePublished">2016-02-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/02/first-article/">first-article</a>
-    </h1>
+    <a href="/2016/02/02/first-article/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">first-article</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="u73B0_u9636_u6BB5_u80FD_u529B"><a href="#u73B0_u9636_u6BB5_u80FD_u529B" class="headerlink" title="现阶段能力"></a>现阶段能力</h2><h3 id="node_u5B66_u4E60_u5386_u7A0B_uFF1A"><a href="#node_u5B66_u4E60_u5386_u7A0B_uFF1A" class="headerlink" title="node学习历程："></a>node学习历程：</h3><ul>
-<li>学习Node.js有3个月了，对Node的特点–异步、回调–有基本的理解，跟着《node开发指南》用mongoose、express4、ejs完成了简单的博客，之后看反复研读了《深入浅出node》，对node的特性有了更进一步的理解，对于构建web应用也有了原理方面的理解。接着研究了一下express源码，认识到了JS语言编程能力的重要性，就去进一步提升JS编程能力。对于JS的闭包、作用域链、面向原型的继承有了深入的理解，并用JS写了编译原理的实验解析器，完成了词法分析和语法分析。整个过程体会到了数据结构的重要性，并且发现JS的强大功能，实现各种基础数据结构，如树、链表完全没压力。<h3 id="u4E0D_u8DB3_u4E4B_u5904_uFF1A"><a href="#u4E0D_u8DB3_u4E4B_u5904_uFF1A" class="headerlink" title="不足之处："></a>不足之处：</h3></li>
-<li>语言掌握层面：对于node的异步编程没有实践，aysnc、promise等没有用过，ES6的新特性没有接触。</li>
-<li>领域知识方面：不擅长数据库设计，数据结构、算法基础薄弱。</li>
-<li>项目实践层面：对于express4、mongoose、ejs等无法独立熟练的构建应用。</li>
-</ul>
-<h2 id="u540E_u7AEF_u5F00_u53D1_u5E94_u8BE5_u628A_u91CD_u5FC3_u653E_u5728_u4EC0_u4E48_u70B9_u4E0A"><a href="#u540E_u7AEF_u5F00_u53D1_u5E94_u8BE5_u628A_u91CD_u5FC3_u653E_u5728_u4EC0_u4E48_u70B9_u4E0A" class="headerlink" title="后端开发应该把重心放在什么点上"></a>后端开发应该把重心放在什么点上</h2><h2 id="u60F3_u52A0_u5165_u4E00_u4E2A_u56E2_u961F_u6216_u516C_u53F8_uFF0C_u5B9E_u8DF5_u6280_u672F"><a href="#u60F3_u52A0_u5165_u4E00_u4E2A_u56E2_u961F_u6216_u516C_u53F8_uFF0C_u5B9E_u8DF5_u6280_u672F" class="headerlink" title="想加入一个团队或公司，实践技术"></a>想加入一个团队或公司，实践技术</h2>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/02/02/first-article/" data-id="cildq0moq0001o8vxlz982wey" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/02/02/hello-world/" class="article-date">
-  <time datetime="2016-02-02T02:31:59.413Z" itemprop="datePublished">2016-02-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/02/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/02/02/hello-world/" data-id="cildq0mo60000o8vxqp2nidwk" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
